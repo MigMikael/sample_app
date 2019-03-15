@@ -26,7 +26,13 @@ gem 'rails-ujs'
 
 gem 'faker'
 
+gem 'carrierwave'
+
+gem 'mini_magick'
+
 gem 'will_paginate'
+
+# em 'fog'
 
 gem 'bootstrap-will_paginate'
 

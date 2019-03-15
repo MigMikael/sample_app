@@ -12,9 +12,9 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                           email: "user@example.com",
                                           password: "password",
                                           passowrd_confirmation: "password"} }
-      end
-      follow_redirect!
-      assert_template 'users/show'
-      assert is_logged_in?
     end
+    follow_redirect!
+    assert_template 'users/show'
+    assert is_logged_in?
+  end
 end
